@@ -1,0 +1,87 @@
+* {
+    font-family: 'Calibri';
+}
+
+/* HEADER */
+
+header {
+    background-image: url(../img/banner.png);
+    background-size: contain;
+    text-align: center;
+}
+
+header img {
+    border-radius: 50px;
+    padding: 10px;
+}
+
+/* SECTION INDEX */
+
+#sobreMiContainer {
+    text-align: center;
+    padding: 20px;
+}
+
+div a {
+    color: #005677;
+    text-decoration: none;
+    background-color: #C4C4C4;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    background-color: #C4C4C4;
+    height: 50px;
+    color: #005677;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 140%;
+    text-align: center;
+}
+
+h2 {
+    background-color: #C4C4C4;
+    height: 20px;
+    color: #005677;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    padding-left: 10px;
+}
+
+#años {
+    font-weight: bold;
+}
+
+/* HTML SOBRE MI */
+
+#parrafoSobreMi {
+    height: 380px;
+    padding: 20px;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #005677;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+h4 {
+    color: #ffff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 84.69%;
+}
+
+#gitHub {
+    width: 35px;
+    height: 35px;
+}

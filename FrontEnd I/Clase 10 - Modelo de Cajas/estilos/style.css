@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+#descuentos {
+    background: #1CD1B0;
+    height: 38px;
+}
+
+#descuentos h4 {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    padding-left: 15px; 
+}
+
+.fondo {
+    box-sizing: border-box;
+    background: #00669F;
+    height: 101px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    padding-left: 15px;
+    margin-bottom: 35px;
+}
+
+.fondo h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 100px;
+}
+
+section {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+article {
+    height: 650px;
+    width: 300px;
+    display: inline-block;
+    padding: 30px;
+}
+
+.fondoTarjeta {
+    height: 336px;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.meGusta {
+    position: relative;
+    top: 50px;
+    left: -110px;
+}
+
+.imgHeroe {
+    position: relative;
+    bottom: 20%;
+    width: 120px;
+    height: 120px;
+    border-radius: 80px;
+}
+
+.nombreHeroe {
+    position: relative;
+    height: 35px;
+    top: -50px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.parrafoHeroe {
+    position: relative;
+    height: 35px;
+    top: -50px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px;
+    text-align: left;
+}
+
+.boton {
+    background: #00669F;
+    position: relative;
+    top: 50px;
+    left: 80px;
+    width: 128px;
+    height: 48px;
+    font-size: 15px;
+    line-height: 50px;
+    color: #F3F3F3;
+}
+
+footer {
+    height: 51px;
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer h4 {
+    color: #FFF9F9;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 55px;
+    padding-left: 15px;
+}
