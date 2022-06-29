@@ -78,7 +78,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: content;
+    align-items: center;
 }
 
 .textHero {
@@ -87,7 +87,7 @@ a {
     order: 2;
 }
 
-.tittleHero {
+.titleHero {
     text-align: center;
     font-size: 3.7rem;
     font-weight: 700;
@@ -108,6 +108,7 @@ a {
     font-size: 1.6rem;
     font-weight: 500;
     color: grey;
+    line-height: 1.8;
 }
 
 .buttonContainerHero {
@@ -136,6 +137,91 @@ a {
     height: auto;
 
 }
+
+/* SECTION ABOUT */
+
+.boxAbout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+
+.textAbout {
+    align-self: center;
+    width: 70%;
+    margin-bottom: 40px;
+}
+
+.titleAbout {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    line-height: 1.3;
+}
+
+.pAbout {
+    text-align: center;
+    padding-top: 5px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: grey;
+    line-height: 1.8;
+}
+
+.boxPoint {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px 40px 20px;
+}
+
+.textTitlePoint {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: var(--very-pale-red);
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.boxNumberPoint {
+    background-color: var(--primary-red);
+    color: var(--light-grey);
+    width: 55px;
+    height: 35px;
+    border: 0px solid;
+    border-radius: 50px;
+}
+
+.numberPoint {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.3rem;
+    height: 100%;
+    line-height: 2.6;
+}
+
+.titlePoint {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-blue);
+    line-height: 1.3;
+}
+
+.pPoint {
+    padding-top: 5px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: grey;
+    line-height: 1.8;
+    width: 85%;
+}
+
+
 
 /* MEDIA QUERY */
 
